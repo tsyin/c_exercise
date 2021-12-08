@@ -1,16 +1,14 @@
-#include<stdio.h>
-#include<limits.h>
+#include <stdio.h>
 
-int main(){
-    int num = 2147483647;
-    num ++;
-    printf("%d\n",num);
+int main(void)
 
-    float ss = 3.1415926234e-30;
-    //ss *= 100;
-    //ss = ss/100;
-    printf("%e\n",ss);
+{
+int y;
+int x = 8,9;
 
 
-    return 0;
+printf("%10d %10d\n", x, y);
+
+return 0;
+
 }
